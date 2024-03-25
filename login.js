@@ -1,21 +1,35 @@
 //Thomas Login Page
 
-const container = document.getElementById('container');
-const registerBtn = document.getElementById('register');
-const loginBtn = document.getElementById('login');
+class LoginPage {
+  // Constructor to initialize the LoginPage object
+  constructor() {
+    // Get references to DOM elements
+    this.container = document.getElementById('container');
+    this.registerBtn = document.getElementById('register');
+    this.loginBtn = document.getElementById('login');
+    this.createAccountBtn = document.getElementById('createAccountBtn');
 
-registerBtn.addEventListener('click', () => {
-    container.classList.add("active");
-});
+    // Attach event listeners to buttons
+    this.registerBtn.addEventListener('click', this.toggleRegistration.bind(this));
+    this.loginBtn.addEventListener('click', this.toggleLogin.bind(this));
+    this.createAccountBtn.addEventListener('click', this.handleAccountCreation.bind(this));
+  }
 
-loginBtn.addEventListener('click', () => {
-    container.classList.remove("active");
-});
+  // Toggles visibility of the registration form
+  toggleRegistration() {
+    this.container.classList.toggle('active');
+  }
 
-// Select the button element from the HTML using its ID
-const createAccountBtn = document.getElementById('createAccountBtn');
+  // Toggles visibility of the login form
+  toggleLogin() {
+    this.container.classList.toggle('active');
+  }
 
-// Add event listener to the button
-createAccountBtn.addEventListener('click', () => {
-  alert('Account Created Successfully!');  // Display alert on click
-});
+  // Handles account creation (placeholder for actual logic)
+  handleAccountCreation() {
+    alert('Account Created Successfully!');  // Placeholder message
+  }
+}
+
+// Create a new LoginPage instance
+const loginPage = new LoginPage();
