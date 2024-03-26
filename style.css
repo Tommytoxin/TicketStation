@@ -12715,7 +12715,7 @@ body {
 
 a {
   text-decoration: none !important;
-  color: var(--cnvs-link-color);
+  color: white;
 }
 a:hover {
   color: var(--cnvs-link-hover-color);
@@ -13096,7 +13096,7 @@ span.middot {
 
 .bg-color,
 .bg-color #header-wrap {
-  background-color: rgba(var(--cnvs-themecolor-rgb), var(--bs-bg-opacity, 1)) !important;
+  background-color:  #21232d !important;
 }
 
 .bg-color[class*=bg-opacity-] {
@@ -13104,7 +13104,7 @@ span.middot {
 }
 
 .color {
-  color: rgba(var(--cnvs-themecolor-rgb), var(--bs-text-opacity, 1)) !important;
+  color: black !important;
 }
 
 .border-color {
@@ -15755,7 +15755,7 @@ img.lazy:not([src]) {
   /*  Side Header */
   --cnvs-side-header-padding-gutters:	30px;
   /*  Primary Menu */
-  --cnvs-primary-menu-color:	var(--cnvs-contrast-900);
+  --cnvs-primary-menu-color:	bl;
   --cnvs-primary-menu-hover-color: var(--cnvs-themecolor);
   --cnvs-primary-menu-active-color:	var(--cnvs-primary-menu-hover-color);
   --cnvs-primary-menu-font:	var(--cnvs-primary-font);
@@ -19028,8 +19028,8 @@ body:not(.has-plugin-html5video) .video-wrap video {
   --cnvs-page-title-padding: 4rem;
   --cnvs-page-title-parallax-padding: 6.25rem;
   --cnvs-page-title-mini-padding: 1.5rem;
-  --cnvs-page-title-bg: var(--cnvs-contrast-bg-offset);
-  --cnvs-page-title-color: var(--cnvs-contrast-900);
+  --cnvs-page-title-bg: white;
+  --cnvs-page-title-color: white;
   --cnvs-page-title-font-size: 2.25rem;
   --cnvs-page-title-font-weight: 500;
   --cnvs-page-title-spacing: 0;
