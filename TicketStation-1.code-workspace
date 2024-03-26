@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "TicketStation-1",
+			"path": "."
+		},
+		{
+			"path": "../TicketStation-Chiamaka-branch/TicketStation-Chiamaka-branch/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TicketStation-1",
+		"liveServer.settings.port": 5501
+	}
+}

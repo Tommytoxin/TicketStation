@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="payment.css" />
+    <title>Tune Ticket Payment</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tune Ticket Payment</h1>
+      <div class="wrapper">
+        <div>
+          <img src="img/Credit Card Payments.svg" >
+        </div>
+        <div>
+          <form class="payment-form">
+            <input
+              type="name"
+              name=""
+              class="firstname"
+              placeholder="first name"
+              required
+            />
+            <input
+              type="name"
+              name=""
+              class="lastname"
+              placeholder="last name"
+            /><br />
+            <input
+              type="email"
+              name=""
+              class="email"
+              placeholder="email@payment.com"
+              required
+            /><br />
+            <textarea class="address" placeholder="address" required></textarea
+            ><br />
+            <input
+              type="name"
+              name=""
+              class="nameoncard"
+              placeholder="name on card"
+              required
+            /><br />
+            <input
+              type="text"
+              name=""
+              class="card"
+              placeholder="aaaa bbbb cccc dddd"
+              required
+            />
+            <input
+              type="password"
+              name=""
+              class="cvv"
+              maxlength="3"
+              placeholder="cvv"
+              required
+            /><br />
+            <input type="submit" name="" value="Pay" class="pay-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="payment.js"></script>
+  </body>
+</html>
